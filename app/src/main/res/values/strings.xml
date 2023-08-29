@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">New York Times</string>
+
+    <!-- Books Activity -->
+    <string name="test">Teste</string>
+
+    <!-- Details Activity -->
+    <string name="bkDetails_title_label">"Title "</string>
+    <string name="bkDetails_desc_label">"Description "</string>
+
+</resources>
