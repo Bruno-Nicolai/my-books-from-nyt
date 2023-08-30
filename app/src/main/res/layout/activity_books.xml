@@ -8,20 +8,22 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/tb_main"
-        android:background="@color/purple_500"
         android:layout_width="0dp"
         android:layout_height="?android:attr/actionBarSize"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/purple_500"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_books"
-        tools:listitem="@layout/books_item"
-        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tb_main" />
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tb_main"
+        tools:listitem="@layout/books_item" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

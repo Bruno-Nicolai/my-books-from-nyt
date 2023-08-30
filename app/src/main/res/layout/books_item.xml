@@ -11,23 +11,30 @@
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="start"
+        android:paddingHorizontal="18dp"
         android:layout_marginBottom="5dp"
         android:textSize="28sp"
         android:textStyle="bold"
         tools:text="@string/test" />
 
-    <!--    <TextView-->
-    <!--        android:id="@+id/tv_desc"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        tools:text="@string/test" />-->
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:paddingHorizontal="21dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            tools:text="@string/test" />
 
     <TextView
         android:id="@+id/tv_author"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="start"
+        android:paddingHorizontal="18dp"
         android:layout_marginBottom="5dp"
         android:textSize="14sp"
         tools:text="@string/test" />

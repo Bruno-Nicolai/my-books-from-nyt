@@ -28,10 +28,12 @@ class BooksAdapter(
     class BooksViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
         private val title = view.findViewById<TextView>(R.id.tv_title)
+        private val description = view.findViewById<TextView>(R.id.tv_desc)
         private val author = view.findViewById<TextView>(R.id.tv_author)
 
         fun bind(book: Book) {
             title.text = book.title
+            description.text = book.description
             author.text = book.author
         }
 
