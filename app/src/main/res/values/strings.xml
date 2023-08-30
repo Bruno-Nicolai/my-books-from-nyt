@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">New York Times</string>
 
+    <!-- Template -->
+    <string name="test">Test</string>
+
     <!-- Books Activity -->
-    <string name="test">Teste</string>
+    <string name="tv_title">Title</string>
+    <string name="tv_desc">Description</string>
+    <string name="tv_author">Author</string>
 
     <!-- Details Activity -->
-    <string name="bkDetails_title_label">"Title "</string>
-    <string name="bkDetails_desc_label">"Description "</string>
-
 </resources>
